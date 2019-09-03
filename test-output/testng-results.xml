@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="3" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[calsaasdc]]>
+    </line>
+    <line>
+      <![CDATA[calc]]>
+    </line>
+    <line>
+      <![CDATA[calasdsc]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\RamHarini\DSandPractice\securepay.\screenshots\Screenshot-1567510607040.jpg'> <img src='C:\Users\RamHarini\DSandPractice\securepay.\screenshots\Screenshot-1567510607040.jpg' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\RamHarini\DSandPractice\securepay.\screenshots\Screenshot-1567510609505.jpg'> <img src='C:\Users\RamHarini\DSandPractice\securepay.\screenshots\Screenshot-1567510609505.jpg' height='100' width='100'/> </a>]]>
+    </line>
+  </reporter-output>
+  <suite name="securepay" duration-ms="37599" started-at="2019-09-03T11:36:15Z" finished-at="2019-09-03T11:36:52Z">
+    <groups>
+    </groups>
+    <test name="Test One" duration-ms="37599" started-at="2019-09-03T11:36:15Z" finished-at="2019-09-03T11:36:52Z">
+      <class name="org.securepay.TestRunner">
+        <test-method status="FAIL" signature="newtest(org.testng.ITestContext)[pri:0, instance:org.securepay.TestRunner@91161c7]" name="newtest" duration-ms="34464" started-at="2019-09-03T11:36:15Z" finished-at="2019-09-03T11:36:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@47f3c23a]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for presence of element located by: By.xpath: (//a[contains(text(),'Spport')])[1] (tried for 20 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: (//a[contains(text(),'Spport')])[1] (tried for 20 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at org.securepay.pages.SecurepayPage.findElementIdentifier(SecurepayPage.java:95)
+at org.securepay.pages.SecurepayPage.gotoSupport(SecurepayPage.java:37)
+at org.securepay.TestRunner.newtest(TestRunner.java:48)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//a[contains(text(),'Spport')])[1]"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-PLB7R325', ip: '10.0.0.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.12 (220b19a666554..., userDataDir: C:\Users\RAMHAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54449}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4b3ae9ba6ca1e5f21b024d2fbbb24f4f
+*** Element info: {Using=xpath, value=(//a[contains(text(),'Spport')])[1]}
+at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 16 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\RamHarini\DSandPractice\securepay.\screenshots\Screenshot-1567510609505.jpg'> <img src='C:\Users\RamHarini\DSandPractice\securepay.\screenshots\Screenshot-1567510609505.jpg' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- newtest -->
+        <test-method status="PASS" signature="getResult()[pri:0, instance:org.securepay.TestRunner@91161c7]" name="getResult" is-config="true" duration-ms="727" started-at="2019-09-03T11:36:50Z" finished-at="2019-09-03T11:36:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult()[pri:0, instance:org.securepay.TestRunner2@604ed9f0]" name="getResult" is-config="true" duration-ms="699" started-at="2019-09-03T11:36:51Z" finished-at="2019-09-03T11:36:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult()[pri:0, instance:org.securepay.TestRunner3@6a4f787b]" name="getResult" is-config="true" duration-ms="715" started-at="2019-09-03T11:36:51Z" finished-at="2019-09-03T11:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- org.securepay.TestRunner -->
+      <class name="org.securepay.TestRunner2">
+        <test-method status="FAIL" signature="anothertest(org.testng.ITestContext)[pri:0, instance:org.securepay.TestRunner2@604ed9f0]" name="anothertest" duration-ms="31999" started-at="2019-09-03T11:36:15Z" finished-at="2019-09-03T11:36:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@47f3c23a]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for presence of element located by: By.xpath: (//a[contains(text(),'Spport')])[1] (tried for 20 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: (//a[contains(text(),'Spport')])[1] (tried for 20 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at org.securepay.pages.SecurepayPage.findElementIdentifier(SecurepayPage.java:95)
+at org.securepay.pages.SecurepayPage.gotoSupport(SecurepayPage.java:37)
+at org.securepay.TestRunner2.anothertest(TestRunner2.java:48)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//a[contains(text(),'Spport')])[1]"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-PLB7R325', ip: '10.0.0.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.12 (220b19a666554..., userDataDir: C:\Users\RAMHAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54447}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ca36d1daa5cf82441674ad387e878fe2
+*** Element info: {Using=xpath, value=(//a[contains(text(),'Spport')])[1]}
+at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 16 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\RamHarini\DSandPractice\securepay.\screenshots\Screenshot-1567510607040.jpg'> <img src='C:\Users\RamHarini\DSandPractice\securepay.\screenshots\Screenshot-1567510607040.jpg' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- anothertest -->
+      </class> <!-- org.securepay.TestRunner2 -->
+      <class name="org.securepay.TestRunner3">
+        <test-method status="PASS" signature="newtest(org.testng.ITestContext)[pri:0, instance:org.securepay.TestRunner3@6a4f787b]" name="newtest" duration-ms="13878" started-at="2019-09-03T11:36:15Z" finished-at="2019-09-03T11:36:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@47f3c23a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[calsaasdc]]>
+            </line>
+            <line>
+              <![CDATA[calc]]>
+            </line>
+            <line>
+              <![CDATA[calasdsc]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- newtest -->
+      </class> <!-- org.securepay.TestRunner3 -->
+    </test> <!-- Test One -->
+  </suite> <!-- securepay -->
+</testng-results>

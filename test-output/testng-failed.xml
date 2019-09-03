@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [securepay]" parallel="classes">
+  <test thread-count="3" name="Test One(failed)" parallel="classes">
+    <classes>
+      <class name="org.securepay.TestRunner">
+        <methods>
+          <include name="getResult"/>
+          <include name="newtest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.securepay.TestRunner -->
+      <class name="org.securepay.TestRunner2">
+        <methods>
+          <include name="anothertest" invocation-numbers="0"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- org.securepay.TestRunner2 -->
+    </classes>
+  </test> <!-- Test One(failed) -->
+</suite> <!-- Failed suite [securepay] -->
